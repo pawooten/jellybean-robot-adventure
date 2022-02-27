@@ -31,15 +31,23 @@
     - Bomb Detonator. The bomb detonator allows the player to control the time of detonation of bombs which they've placed.
     - Bomb Scope. The bomb scope indicates the blast radius and detonation countdown timer of bombs in the playing field.
     - Treads. Increases the robot movement speed.
+- Game World Themes
+    - Jungle
+    - Lava
+    - Tundra
+    - City
 
 #### Game Mechanics
 
 - Player progress should auto save.
 - Players may replay previous levels at any time.
 - No lives, continues or game over system. Players may attempt each level as many times as desired.
+- The game will be divided into worlds, each of which is composed of a set of levels.
+    - Each world will be themed. For instance, on a jungle themed world, a destroyable obstacle may be overgrowth. On a city themed world, a destroyable obstacle may be a traffic construction barrel.
 - The player and all enemies are unable to jump. Both pits and immovable obstacles block player and enemy movement, but pits allow projectiles to traverse while immovable obstacles do not.
 
 #### Questions / Ideas
 
 - Should there be a score?
 - Should items like the bush knife be single use, several use, or infinite use?
+- Should there be permanent upgrades which the player retains through death?
