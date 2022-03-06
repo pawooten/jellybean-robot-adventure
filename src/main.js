@@ -1,7 +1,9 @@
-PlayState = {};
+import Phaser from 'phaser';
+
+let PlayState = {};
 // load game assets here
 PlayState.preload = function () {
-    this.game.load.image('background', 'background.png');
+    this.load.image('background', 'background.png');
 };
 PlayState.init = function () {
 };
@@ -19,8 +21,8 @@ PlayState._handleInput = function () {
 };
 PlayState.begin = function() {
     let game = new Phaser.Game(960, 600, Phaser.AUTO, 'game');
-    game.state.add('play', PlayState);
-    game.state.start('play');
+    game.scene.add('play', PlayState);
+    game.scene.start('play');
 }
 window.onload = function () {
     PlayState.begin();

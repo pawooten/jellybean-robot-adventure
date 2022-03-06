@@ -2,7 +2,7 @@ express = require('express');
 
 let app = express();
 
-const staticDirectories = [ 'content\images', 'src', 'wwwroot'];
+const staticDirectories = [ 'content\images', 'dist'];
 staticDirectories.forEach(directory => {
   app.use(express.static(directory));
 });
