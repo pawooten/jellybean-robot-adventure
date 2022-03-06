@@ -9,11 +9,11 @@ PlayState.init = function () {
 };
 // create game entities and set up world here
 PlayState.create = function () {
-    this.game.add.image(0, 0, 'background');
+    this.add.image(0, 0, 'background');
 };
 PlayState.update = function () {
-    this._handleCollisions();
-    this._handleInput();
+    PlayState._handleCollisions();
+    PlayState._handleInput();
 };
 PlayState._handleCollisions = function () {
 };
