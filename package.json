@@ -1,0 +1,28 @@
+{
+  "name": "jellybean-robot-adventure",
+  "version": "1.0.0",
+  "description": "A 2d self-paced puzzle adventure game",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawooten/jellybean-robot-adventure.git"
+  },
+  "author": "Paul Wooten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawooten/jellybean-robot-adventure/issues"
+  },
+  "homepage": "https://github.com/pawooten/jellybean-robot-adventure#readme",
+  "dependencies": {
+    "debug": "^4.3.3",
+    "express": "^4.17.3",
+    "phaser": "^3.55.2"
+  }
+}
