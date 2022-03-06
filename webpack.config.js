@@ -4,7 +4,7 @@ module.exports = {
   mode: 'development',
   entry: './src/main.js',
   output: {
-    filename: 'main.js',
+    filename: 'jellybean-robot-adventure.js',
     path: path.resolve(__dirname, 'dist'),
   },
 };
